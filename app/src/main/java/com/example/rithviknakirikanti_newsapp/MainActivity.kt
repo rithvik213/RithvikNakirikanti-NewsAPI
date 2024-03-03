@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        /*
         val retrofit = Retrofit.Builder()
             .baseUrl("https://newsapi.org/") // Ensure this is your base URL
             .addConverterFactory(GsonConverterFactory.create())
@@ -46,5 +47,7 @@ class MainActivity : AppCompatActivity() {
             }
 
         })
+
+         */
     }
 }
