@@ -12,7 +12,6 @@ class ArticleHolder(
     fun bind(article: Article) {
         binding.newsTitle.text = article.title
         binding.newsDate.text = article.publishedAt
-       // binding.newsDescription.text = article.description ?: "Description not available"
 
         binding.root.setOnClickListener {
             Toast.makeText(

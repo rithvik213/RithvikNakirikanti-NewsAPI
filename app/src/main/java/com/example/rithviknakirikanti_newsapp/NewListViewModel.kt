@@ -24,7 +24,6 @@ class NewsListViewModel : ViewModel() {
     private val apiService = retrofit.create(APIService::class.java)
 
     init {
-        // Make the initial API call here
         fetchNewsArticles("business")
     }
 
